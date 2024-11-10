@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from transformers import AutoTokenizer, TFAutoModelForSequenceClassification, pipeline
 
-API_TOKEN = "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"
+API_TOKEN = "(your user access token from https://huggingface.co/settings/tokens)"
 API_URL = "https://api-inference.huggingface.co/models/ProsusAI/finbert"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
